@@ -6,10 +6,10 @@ function Details() {
     <Typewriter
       options={{
         strings: [
-          'Developer',
-          'Deep Learning Engineer',
-          'MERN Stack Developer',
-          'Open Source Contributor',
+          'Software Developer',
+          'Data Scientist',
+          'Digital Nomad',
+          'Duolingo Enthusiast',
         ],
         autoStart: true,
         loop: true,

@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: dodgerblue;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -273,27 +273,27 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 4em !important;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 3em !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: dodgerblue;
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
+  font-size: 3em !important;
+  color: dodgerblue !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #b562d6 !important;
+  font-size: 3em !important;
+  color: dodgerblue !important;
 }
 
 @media (max-width: 767px) {

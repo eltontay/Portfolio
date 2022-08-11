@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import homeLogo from "../../Assets/home-main.svg";
+import openPeep from '../../Assets/openPeeps-0.svg';
 import Particle from '../../Components/Particle';
 import Details from '../../Components/Details';
 
@@ -13,14 +13,10 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{' '}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi!{' '}
               </h1>
-
               <h1 className="heading-name">
-                I'M
+                My name is
                 <strong className="main-name"> Elton Tay</strong>
               </h1>
 
@@ -29,14 +25,14 @@ function Home() {
               </div>
             </Col>
 
-            {/* <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={openPeep}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: '450px' }}
               />
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </Container>
